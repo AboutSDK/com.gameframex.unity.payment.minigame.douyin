@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/gameframex/com.gameframex.unity.payment.douyinminigame/compare/2.0.0...2.0.1) (2026-11-10)
+
+
+### Bug Fixes
+
+* **payment.douyinminigame:** 添加完整 link.xml 防代码裁剪保护 ([e069c63](https://github.com/gameframex/com.gameframex.unity.payment.douyinminigame/commit/e069c6392b81443f1f7dcbf8921db19f2939ca3b))
+
 # [2.0.0](https://github.com/gameframex/com.gameframex.unity.payment.douyinminigame/compare/1.0.2...2.0.0) (2026-10-15)
 
 

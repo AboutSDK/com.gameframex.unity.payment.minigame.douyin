@@ -3,7 +3,7 @@
   "displayName": "Game Frame X Payment (DouYin Mini Game)",
   "category": "Game Frame X",
   "description": "GameFrameX Payment DouYin MiniGame — Douyin Mini Game payment adapter for GameFrameX Payment, implementing BasePaymentManager as DouYinMiniGamePaymentManager to request in-game product payments through TTSDK. Supports one-time product purchases via the unified Buy(...) interface with DouYinMiniGamePurchaseParams: iOS calls TTSDK.TT.OpenAwemeCustomerService (DIAMOND currency) when available, other platforms (Android/devtools) call TTSDK.TT.RequestGamePayment; goodName is sent as ProductId_GoodName. Subscriptions and purchase queries are not supported by the platform and throw or only log warnings; initialization is not required and BuyInApp should be replaced with Buy. Docs: https://gameframex.doc.alianblank.com\n\nGameFrameX Payment DouYin MiniGame — GameFrameX Payment 的抖音小游戏支付适配包，实现 BasePaymentManager（DouYinMiniGamePaymentManager），在抖音小游戏环境中通过 TTSDK 发起游戏内道具支付。支持经统一 Buy(...) 接口配合 DouYinMiniGamePurchaseParams 购买一次性道具：iOS 平台在可用时走 TTSDK.TT.OpenAwemeCustomerService（DIAMOND 币种），其余平台（Android/开发者工具）调用 TTSDK.TT.RequestGamePayment；商品名称按 商品ID_商品名称 拼接上送。平台不支持订阅与购买查询，相应接口抛出异常或仅输出警告；无需初始化，应使用 Buy 而非 BuyInApp。文档：https://gameframex.doc.alianblank.com",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "unity": "2019.4",
   "keywords": [
     "Game Frame X"
